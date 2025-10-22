@@ -8,7 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #load dataset
-data=pd.read_csv("netflix_titles.csv")
+data = pd.read_csv("/Users/olats/Documents/computer science class/Netflix-Trends-Data-Exploration/netflix_titles.csv")
 
 #preview first 5 rows
 print(data.head())
